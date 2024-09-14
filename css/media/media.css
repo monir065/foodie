@@ -1,0 +1,2434 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* common class start  */
+     /* section padding start  */
+     .sec_com_pd{
+        padding: 50px 0 50px;
+    }
+    .tit_com_pd{
+        padding: 0 0 20px !important;
+    }
+    /* section padding end */
+    .c_btn{
+        padding: 15px 0px;
+    }
+    .c_btn a, .submit_btn{
+        font-size: 14px !important;
+        padding: 5px 30px !important;
+    }
+     /* section title start  */
+     .sec_title{
+        padding: 0px 0 20px;
+    }
+    .sec_title h2 {
+        font-size: 25px;
+        letter-spacing: 1px;
+        padding-bottom: 0px;
+    }
+    .sec_title .com_un{
+        height: 2px;
+    }
+    .sec_title .underline1{
+        width: 150px;
+        margin-bottom: 5px;
+    }
+    .sec_title .underline2{
+        width: 80px;
+    }
+    .sec_sub_title{
+        font-size: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding: 15px 0;
+        margin: 0 !important;
+    }
+    /* section title end */
+    /* common class end */
+    /* top header start  */
+    hr{
+        display: none;
+    }
+    .top_header{
+        display: none;
+    }
+    .top_p p{
+        font-size: 14px;
+    }
+    .top_p p span{
+        font-size: 20px;
+    }
+    /* top header end */
+      /* header start  */
+      .c-btn a{
+          font-size: 16px;
+      }
+      /* header start  */
+    .header_area{
+        padding: 0;
+        position: relative;
+    }
+    /* menu item start  */
+    .main_menu ul li a {
+        font-size: 14px;
+        padding: 0px 10px 20px 10px !important;
+        text-align: right;
+    }
+    /* togglar btn  */
+    .tog-btn {
+        margin: 25PX 0;
+        padding: 2px;
+        position: absolute;
+        right: 10px;
+        top: -22px;
+    }
+    .tog-btn .nav_icon{
+        font-size: 12px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        box-shadow: none;
+      }
+      /* logo  */
+      .img a img {
+        padding: 10px 0px 10px 6px;
+    }
+      /* header end  */
+      /* hero slider start  */
+   .text_item {
+    padding: 50px 5px 20px;
+}
+.text_item h2 {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.text_item .kebab{
+    letter-spacing: 10px;
+}
+.text_item .menulist_btn{
+    padding-top: 20px !important;
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+.indicator_btn {
+    width: 10px !important;
+    height: 10px !important;
+}
+/* animetion img and text start  */
+.img_item{
+    padding: 0px 0px 50px;
+}
+.animet_img .spicy {  
+    font-size: 20px;
+    left: 100px;
+    bottom: 300px;
+    letter-spacing: 15px;
+    display: none;
+}
+.animet_img .chili {
+    display: none;
+}
+.animet_img .cut_chili {
+    display: none;
+}
+.animet_img .chili-hot {
+    display: none;
+}
+.animet_img .onion{
+   display: none;
+}
+.animet_img .tomito1 {
+    display: none;
+}
+.animet_img .tomito3 {
+    display: none;
+}
+/* hero slider end */
+/* speshal menu section start  */
+.single_gallary_item {
+    margin: 20px 0 0px;
+}
+.single_gallary_item1{
+    margin: 0 !important;
+}
+.slider1 {
+    padding: 20px 0 10px;
+}
+.price_stiker{
+    position: static;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+.slide_lernmor {
+    padding: 20px 0 !important; 
+}
+.slide_lernmor a {
+    padding: 5px 30px;
+}
+.price_stiker h2 {
+    font-size: 22px;
+    padding: 10px 20px;
+}
+.slider_text_img .menu_info h2 {
+    font-size: 22px;
+    padding: 25px 0 0;
+}
+.slider_text_img .menu_info p {
+    padding: 15px 25px 0;
+}
+/* speshal menu section end */
+/* offer section start  */
+.offer{
+    padding: 0 0 0px !important;
+}
+.offer .bg {
+    padding: 20px;
+}
+.offer_img .img1 {
+    width: 100px;
+    height: 100px;
+    left: 110px;
+    top: 0px;
+}
+.offer_img .img2 {
+    width: 70px;
+    height: 70px;
+    left: 10px;
+    top: 5px;
+}
+.offer_img .img3 {
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    bottom: 0px;
+}
+.offer_img .offer_stiker {
+    left: 170px;
+    top: 85px;
+    min-width: 100px;
+    min-height: 100px;
+}
+.offer_img .offer_stiker h2 {
+    font-size: 20px;
+    top: 20px;
+}
+.offer_text h3 {
+    text-align: center;
+    padding: 0px 0 15px;
+}
+.offer_text p {
+    font-size: 14px;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 25px;
+    text-align: center;
+}
+.offer_btn {
+    float: none;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.offer_img .img-bg {
+    width: 280px;
+    height: 430px;
+    left: -70px;
+    bottom: -200px;
+    opacity: 50%;
+    display: none;
+}
+.offer_underline .offer_underline2 {
+    margin: auto;
+}
+/* offer section end */
+/* food gallary start  */
+ .col_scrin{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #000;  
+}
+.col_scrin h3{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.col_scrin h2{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+.hover_bg {
+    display: none;
+}
+.hover_bg h3 {
+    font-size: 18px;
+}
+.bar2 {
+    width: 116px;
+    bottom: 26px;
+    left: -22px;
+}
+/* food gallary ene */
+/* book section start  */
+.book_heding h2 {
+    font-size: 20px;
+}
+.book_p {
+    padding: 20px 0 15px;
+}
+.book_label label {
+    font-size: 16px;
+    padding: 10px 0 10px;
+}
+.book_input input {
+    padding: 5px 10px;
+}
+.book_input .select{
+    padding: 5px 10px;
+}
+::-ms-input-placeholder {
+    font-size: 14px;
+  }
+::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+::-moz-input-placeholder {
+    font-size: 14px;
+  }
+::placeholder {
+    font-size: 14px;
+  }
+.book_form{
+    padding: 0 40px;
+}
+.book_btn {
+  padding: 20px 0;
+}
+.left_side {
+    padding: 0px 10px;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+}
+.right_side {
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+}
+.opening_time table {
+    display: flex;
+    justify-content: center;
+}
+.opening_time table tr td {
+    font-size: 14px;
+    padding: 10px 10px;
+    text-align: center;
+}
+.opening_time h3 {
+    padding: 10px 0px 10px;
+}
+/* book section end */
+/* claient review start  */
+.cus_slider .quotetion i {
+    font-size: 20px;
+    padding: 20px 15px 15px;
+}
+.cus_slider h2 {
+    font-size: 20px;
+}
+.cus_slider p {
+    padding: 10px 10px 10px;
+}
+.cus_slider span i {
+    padding: 0 0 10px;
+}
+.cus_slider .cus_img {
+    width: 120px;
+}
+.cus_slider h3 {
+    font-size: 18px;
+    padding: 10px 10px 20px;
+}
+/* claient review end */
+ /* mit our chefs start  */
+ .chefs_img {
+    width: 200px;
+    height: 200px;
+}
+/* chef socail icon  */
+.chef_socail_icon .chef_socail_menu{
+    top: 80px;
+    left: 80px;
+    width: 40px;
+    height: 40px;
+}
+.chef_socail_icon li{
+    top: 80px;
+    left: 5px;
+    transform-origin: 95px;
+    -webkit-transform-origin: 95px;
+    -ms-transform-origin: 95px;
+    -moz-transform-origin: 95px;
+    -o-transform-origin: 95px;
+}
+.chef_socail_icon li a{
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+}
+.chef_socail_icon li:hover a{
+   font-size: 20px;
+}
+/* chef socail icon */
+.chefs_info h2 {
+    font-size: 20px;
+    padding: 10px 0px 5px;
+}
+.chefs_info p {
+    font-size: 16px;
+    padding: 0 0 10px; 
+}
+.chefs_hover{
+    margin-bottom: 10px;
+}
+/* mit our chefs end */
+/* counter me section start  */
+.count_me1 {
+    width: 150px;
+    height: 150px;
+    padding: 40px 15px;
+}
+.count_me1 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.count_info p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding: 15px 0 20px;
+}
+
+/* counter me section end */
+/* contact section start  */
+.info-wrap .dbox {
+    margin-bottom: 20px;
+}
+.info-wrap {
+    margin: 0px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+/* contact section end */
+/* footer section stert  */
+/* common footer  */
+.footer_h3{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0 10px; 
+}
+/* common footer */
+.footer_top {
+    padding: 30px 0 20px;
+}
+.ftr_col1 p {
+    font-size: 16px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.socail_icon{
+    padding: 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.socail_icon ul {
+    padding: 0 ;
+    margin: 0;
+}
+.socail_icon li {
+    padding: 0px 7px;
+}
+.socail_icon li a i {
+    font-size: 20px;
+}
+.menu_list2 {
+    padding-left: 0px !important;
+}
+.menu_list ul {
+    padding: 0;
+    text-align: center;
+}
+.menu_list ul li {
+    padding:0;
+}
+.menu_list ul li a {
+    font-size: 13px;
+}
+.contact_p {
+    font-size: 16px;
+    padding: 0px 0 0px;
+    text-align: center;
+}
+.p2 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+.contact_list p span {
+    padding-right: 5px;
+}
+.p2 span{
+    padding-right: 5px;
+}
+.p3 {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20px;
+}
+.copy p {
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+}
+.copy_p2{
+    padding-top: 0 !important;
+}
+.newsletter_form{
+    padding: 0px 60px !important;
+}
+.newsform {
+    margin-bottom: 10px;
+}
+.newsform input {
+    font-size: 14px;
+    padding: 5px 30px 5px 10px;
+}
+.news_control::placeholder{
+    font-size: 14px;
+}
+.submit_icon {
+    position: static;
+}
+.submit_icon button i{
+    font-size: 14px;
+}
+.check_box {
+    margin-bottom: 0;
+}
+.check_box label {
+    font-size: 14px;
+}
+/* footer section end */
+/* blog page start  */
+/* post left  */
+.post_left .date_line {
+    padding: 10px 10px 30px 10px;
+}
+.post_left .post_dtls{
+    padding: 0px 10px 30px 10px;
+}
+.post_left .date_line ul li {
+    padding-right: 50px;
+}
+.post_left .date_line ul li span {
+    display: none;
+}
+.post_left .post_dtls p {
+    text-align: center;
+}
+.post_btn {
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+.next_page{
+    padding: 15px 0 20px;
+}
+.category_single ul li span {
+    left: 175px;
+}
+/* post left  */
+.side_bar_item {
+    padding: 20px 20px;
+    margin-top: 40px;
+}
+/* blog page end  */
+/* go top start  */
+#myTop {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 4px 10px 15px;
+}
+/* go top end */
+/* background png img start */
+.food_smoke{
+    display: none;
+}
+.cloud img {
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+.fcloud01 {
+    display: none;
+    top: 10px;
+}
+.fcloud02 {
+    top: 5px;
+}
+/* background png img end */
+/* --------about page start--------  */
+.about {
+    padding-bottom: 0px;
+}
+.about_hero_img {
+    width: 250px;
+    height: 250px;
+    padding: 20px 0;
+}
+/* about us section start  */
+.no_pdt{
+    padding-top: 0 !important;
+}
+.about_item {
+    padding: 30px 0 0;
+}
+.about_left .img_com {
+    width: 100%;
+}
+.about_left .img2{
+    width: 230px;
+    top: 65px;
+}
+ /* about page about section start */
+ @keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      transform: rotateY(180deg); 
+     }
+     98%{
+        transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;    
+      transform: rotateY(0deg);     
+    }
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -webkit-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      -webkit-transform: rotateY(180deg); 
+     }
+     98%{
+        -webkit-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;
+      -webkit-transform: rotateY(0deg);
+    }
+  }
+  @-ms-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -ms-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      -ms-transform: rotateY(180deg); 
+     }
+     98%{
+        -ms-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;
+      -ms-transform: rotateY(0deg);
+    }
+  }
+  @-moz-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -moz-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      -moz-transform: rotateY(180deg); 
+     }
+     98%{
+        -moz-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;    
+      -moz-transform: rotateY(0deg);         
+    }
+  }
+  @-o-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -o-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      -o-transform: rotateY(180deg); 
+     }
+     98%{
+        -o-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;   
+      -o-transform: rotateY(0deg);        
+    }
+  }
+  .about_right p {
+    padding: 0px 0 10px;
+    margin: 0;
+    word-spacing: 3px;
+    line-height: 25px;
+    text-align: center;
+}
+.about_btn{
+    float: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+/* about us section end */
+ }
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /* common class start  */
+      /* section padding start  */
+    .sec_com_pd{
+        padding: 60px 0 60px;
+    }
+    .tit_com_pd{
+        padding: 0 0 30px !important;
+    }
+    /* section padding end */
+     .c_btn{
+        padding: 15px 0px;
+    }
+    .c_btn a, .submit_btn{
+        font-size: 14px !important;
+        padding: 5px 30px !important;
+    }
+    /* section title start  */
+    .sec_title h2 {
+        font-size: 28px;
+        letter-spacing: 2px;
+        padding-bottom: 8px;
+    }
+    .sec_title .com_un{
+        height: 2px;
+    }
+    .sec_title .underline1{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .sec_title .underline2{
+        width: 100px;
+    }
+    .sec_sub_title{
+        font-size: 25px;
+        letter-spacing: 3px;
+        padding: 30px 0;
+        margin: 0 !important;
+        text-align: center;
+    }
+    /* section title end */
+    /* common class end */
+    /* top header start  */
+    .top_p {
+        padding: 5px 0;
+    }
+    .top_p p{
+        font-size: 10px;
+    }
+    .top_p p span{
+        font-size: 16px;
+    }   
+    .top_btn {
+        padding: 5px 0 !important;
+    }
+    /* top header end */
+      /* header start  */
+    .header_area{
+        padding: 0;
+        position: relative;
+    }
+    /* menu item start  */
+    .main_menu ul li a {
+        font-size: 14px;
+        padding: 15px 13px 10px 10px !important;
+        text-align: right;
+    }
+    /* togglar btn  */
+    .tog-btn {
+        margin: 30PX 0;
+        padding: 2px;
+        position: absolute;
+        right: 6px;
+        top: -22px;
+    }
+    .tog-btn .nav_icon{
+        font-size: 14px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        box-shadow: none;
+      }
+      /* logo  */
+      .img a img{
+        padding: 10px 0;
+    }
+      /* header end  */
+    /* hero slider start  */
+   .text_item {
+    padding: 60px 30px 25px;
+}
+.text_item h2 {
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.text_item .kebab{
+    letter-spacing: 10px;
+}
+.text_item .menulist_btn{
+    padding-top: 20px !important;
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+.indicator_btn {
+    width: 10px !important;
+    height: 10px !important;
+}
+/* animetion img and text start  */
+.img_item{
+    padding: 25px 0px 50px;
+}
+.animet_img .spicy {  
+    font-size: 25px;
+    left: 185px;
+    bottom: 460px;
+}
+.animet_img .chili {
+    width: 130px;
+    height: 80px;
+    left: 0;
+}
+.animet_img .cut_chili {
+    width: 115px;
+    height: 204px;
+    left: 0px;
+    top: 290px;
+    rotate: 280deg !important;
+}
+.animet_img .chili-hot {
+    width: 150px;
+    height: 110px;
+    top: 355px;
+    display: none;
+}
+.animet_img .onion{
+   display: none;
+}
+.animet_img .tomito1 {
+    width: 160px;
+    height: 160px;
+    left: 445px;
+    top: 280px;
+    opacity: 60% !important;
+}
+.animet_img .tomito3 {
+    width: 250px !important;
+    height: 180px !important;
+    left: 160px;
+    top: 40px;
+    opacity: 60% !important;
+}
+/* hero slider end */
+/* speshal menu section start  */
+.slider1 {
+    padding: 30px 0 10px;
+}
+.price_stiker{
+    top: 136px;
+}
+.price_stiker h2 {
+font-size: 18px;
+}
+.slider_text_img .menu_info h2 {
+    font-size: 20px;
+    padding: 40px 0 0;
+}
+.slider_text_img .menu_info p {
+    font-size: 16px;
+    padding: 15px 25px 0;
+}
+.slide_lernmor {
+    padding: 20px 0 30px 0;
+}
+.slide_lernmor a {
+    padding: 5px 30px;
+}
+/* speshal menu section end */
+/* offer section start  */
+.offer{
+    padding: 0 0 0px !important;
+}
+.offer .bg {
+    padding: 60px;
+}
+.offer_img .img1 {
+    width: 150px;
+    left: 245px;
+    top: 0px;
+}
+.offer_img .img2 {
+    width: 150px;
+    left: 52px;
+    top: -20px;
+}
+.offer_img .img3 {
+    width: 150px;
+    left: 130px;
+    bottom: -35px;
+}
+.offer_img .offer_stiker {
+    left: 165px;
+    top: -15px;
+    min-width: 100px;
+    min-height: 100px;
+}
+.offer_img .offer_stiker h2 {
+    font-size: 20px;
+    top: 20px;
+}
+.offer_text h3 {
+    text-align: center;
+    padding: 50px 0 15px;
+}
+.offer_text p {
+    padding: 0 0 15px;
+    margin: 0;
+    line-height: 25px;
+    text-align: center;
+}
+.offer_btn {
+    float: none;
+    padding: 15px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.offer_img .img-bg {
+    display: none;
+}
+.offer_underline .offer_underline2 {
+    margin: auto;
+}
+/* offer section end */
+/* food gallary start  */
+.food_gallary{
+    padding-bottom: 60px;
+ }
+ .hover_bg h3 {
+    font-size: 20px;
+}
+.hover_bg {
+    width: 100%;
+    padding: 20px 0 25px;
+    top: 288px;
+}
+.hover_bg h2 {
+    font-size: 16px;
+}
+.hover_bg h3 {
+    font-size: 16px;
+}
+.bar2 {
+    width: 117px;
+    bottom: 25px;
+    left: -33px;
+}
+/* food gallary ene */
+/* book section start  */
+.book {
+    padding: 60px 0 50px;
+}
+.book_heding h2 {
+    font-size: 20px;
+}
+.book_p {
+    padding: 20px 0 15px;
+}
+.book_label label {
+    font-size: 18px;
+    padding: 15px 0 10px;
+}
+.book_input input {
+    padding: 10px 15px;
+}
+.book_input .select{
+    padding: 10px 15px;
+}
+.book_form{
+    padding: 0 40px;
+}
+.book_btn {
+    padding: 20px 0;
+}
+.left_side {
+    padding: 20px 30px;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -mozborder-radius: 0px 0px 10px 10px;
+}
+.right_side {
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -mozborder-radius: 10px 10px 0px 0px;
+}
+.opening_time table {
+    display: flex;
+    justify-content: center;
+}
+.opening_time table tr td {
+    font-size: 18px;
+    padding: 20px 15px;
+}
+.opening_time h3 {
+    padding: 20px 20px 20px;
+    text-align: center;
+}
+/* book section end */
+/* claient review start  */
+.cus_slider .quotetion i {
+    font-size: 20px;
+    padding: 20px 15px 15px;
+}
+.cus_slider h2 {
+    font-size: 20px;
+}
+.cus_slider p {
+    padding: 10px 10px 10px;
+}
+.cus_slider span i {
+    padding: 0 0 10px;
+}
+.cus_slider .cus_img {
+    width: 120px;
+}
+.cus_slider h3 {
+    font-size: 18px;
+    padding: 10px 10px 20px;
+}
+/* claient review end */
+/* mit our chefs start  */
+.chefs_info h2 {
+    font-size: 25px;
+}
+.chefs_info p {
+    font-size: 18px;
+}
+.chefs_hover{
+    margin-bottom: 30px;
+}
+/* mit our chefs end */
+/* counter me section start  */
+.count_me1 {
+    width: 150px;
+    height: 150px;
+    padding: 40px 15px;
+}
+.count_me1 h2 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.count_info p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding: 15px 0 20px;
+}
+/* counter me section end */
+/* contact section start  */
+.info-wrap .dbox {
+    margin-bottom: 30px;
+}
+.info-wrap {
+    margin: 0px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+/* contact section end  */
+/* footer section end*/
+/* common footer  */
+.footer_h3{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 0 10px; 
+}
+/* common footer */
+.footer_top {
+    padding: 50px 0;
+}
+.ftr_col1 p {
+    font-size: 14px;
+    padding: 0px 40px 12px;
+    text-align: center;
+}
+.socail_icon ul {
+    padding: 0 ;
+    margin: 0px 0px 0 180px;
+}
+.socail_icon li {
+    padding: 0px 7px;
+}
+.socail_icon li a i {
+    font-size: 20px;
+}
+.menu_list2 {
+    padding-left: 0px !important;
+}
+.menu_list ul {
+    padding: 0;
+    text-align: center;
+}
+.menu_list ul li {
+    padding:0;
+}
+.menu_list ul li a {
+    font-size: 14px;
+}
+.contact_p {
+    font-size: 14px;
+    padding: 0px;
+    text-align: center;
+}
+.p2 {
+    font-size: 14px;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+.contact_list p span {
+    padding-right: 5px;
+}
+.p2 span{
+    padding-right: 5px;
+}
+.p3 {
+    font-size: 14px;
+    padding: 0 40px;
+    text-align: center;
+}
+.copy p {
+    padding: 15px 0;
+    text-align: center;
+}
+.copy_p2{
+    padding-top: 0 !important;
+}
+.newsletter_form{
+    padding: 0px 50px !important;
+}
+.newsform {
+    margin-bottom: 15px;
+}
+.newsform input {
+    font-size: 14px;
+    padding: 5px 30px 5px 10px;
+}
+.news_control::placeholder{
+    font-size: 14px;
+}
+.submit_icon {
+    top: 3px;
+    left: 374px;
+}
+.submit_icon button i{
+    font-size: 14px;
+}
+.check_box {
+    margin-bottom: 0;
+}
+.check_box label {
+    font-size: 14px;
+}
+/* footer section end */
+/* blog page start  */
+/* post left  */
+.post_left .date_line {
+    padding: 30px 0px 40px 40px;
+}
+.post_left .date_line ul {
+    margin: 0;
+}
+.post_left .date_line ul li {
+    padding-right: 40px;
+}
+.post_left .date_line ul li span {
+    padding-left: 40px;
+}
+.post_left .post_dtls {
+    padding: 0 25px 40px 25px;
+}
+.post_left .post_dtls p {
+    text-align: center;
+}
+.post_btn {
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+.next_page{
+    padding: 20px 0 25px !important;
+    display: flex;
+    justify-content: center;
+}
+/* post left  */
+.side_bar_item {
+    padding: 30px 30px;
+    margin-top: 40px;
+}
+.category_single ul li span {
+    left: 400px;
+}
+.recent_body {
+    padding: 0 0 0 85px;
+}
+/* blog page end  */
+/* go top start  */
+#myTop {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+}
+/* go top end */
+/* background png img start */
+.food_smoke{
+    display: none;
+}
+.cloud img {
+    width: 100px;
+    height: 100px;
+}
+.fcloud01 {
+    top: 10px;
+}
+.fcloud02 {
+    top: 5px;
+}
+/* background png img end */
+/* --------about page start--------  */
+.about {
+    padding-bottom: 60px;
+}
+/* about us section start  */
+.about_item {
+    padding: 30px 0 0;
+}
+.about_left .img_com {
+    width: 100%;
+}
+.about_left .img2{
+    width: 350px;
+    top: 235px;
+}
+   /* about page about section start */
+   @keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      transform: rotateY(180deg); 
+     }
+     98%{
+        transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;    
+      transform: rotateY(0deg);     
+    }
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -webkit-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      -webkit-transform: rotateY(180deg); 
+     }
+     98%{
+        -webkit-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;
+      -webkit-transform: rotateY(0deg);
+    }
+  }
+  @-ms-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -ms-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      -ms-transform: rotateY(180deg); 
+     }
+     98%{
+        -ms-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;
+      -ms-transform: rotateY(0deg);
+    }
+  }
+  @-moz-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -moz-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      -moz-transform: rotateY(180deg); 
+     }
+     98%{
+        -moz-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;    
+      -moz-transform: rotateY(0deg);         
+    }
+  }
+  @-o-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -o-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(50% - 90px);
+      -o-transform: rotateY(180deg); 
+     }
+     98%{
+        -o-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;   
+      -o-transform: rotateY(0deg);        
+    }
+  }
+/* about page about section end */
+  .about_right p {
+    padding: 0px 0 12px;
+    margin: 0;
+    word-spacing: 4px;
+    line-height: 28px;
+    text-align: center;
+}
+.about_btn{
+    float: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+/* about us section end */
+ }
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* common class start  */
+    /* section padding start  */
+    .sec_com_pd{
+        padding: 80px 0 80px;
+    }
+    /* section padding end */  
+    .c_btn{
+        padding: 20px 0px;
+    }
+    .c_btn a, .submit_btn{
+        font-size: 18px !important;
+    }
+    /* section title start  */
+    .sec_title h2 {
+        font-size: 33px;
+        letter-spacing: 2px;
+    }
+    .sec_title .underline1{
+        margin-bottom: 15px;
+    }
+    .sec_sub_title{
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    /* section title end */
+    /* common footer  */
+    .footer_h3{
+        font-size: 20px;
+    }
+    /* common footer */
+    /* common class end */
+    /* top header start  */
+    .top_p p{
+        font-size: 14px;
+    }
+    .top_p p span{
+        font-size: 20px;
+    }
+    /* top header end */
+    /* header start  */
+    .header_area{
+        padding: 0;
+        position: relative;
+    }
+    /* menu item start  */
+    .main_menu ul li a {
+        font-size: 16px;
+        padding: 15px 10px 21px !important;
+        text-align: right;
+    }
+    .main_menu ul li:first-child a{
+        padding-top: 75px !important;
+    }
+    .main_menu ul {
+        margin-top: 0px;
+    }
+    /* togglar btn  */
+    .tog-btn {
+        margin: 40px 0;
+        padding: 4px;
+        position: absolute;
+        right: 6px;
+        top: -22px;
+    }
+    .tog_btn span{
+        font-size: 14px;
+    }
+    /* header end  */
+   /* hero slider start  */
+   .text_item {
+    padding: 80px 0px;
+}
+.text_item h2 {
+    font-size: 50px;
+    line-height: 80px; 
+}
+.text_item .kebab{
+    letter-spacing: 10px;
+}
+.text_item .menulist_btn{
+    padding-bottom: 80px !important;
+}
+.indicator_btn {
+    width: 12px !important;
+    height: 12px !important;
+}
+/* animetion img and text start  */
+.img_item{
+    padding: 80px 0px;
+}
+.animet_img .spicy {  
+    font-size: 30px;
+    left: 280px;
+    bottom: 40px;
+}
+.animet_img .chili {
+    width: 150px;
+    height: 90px;
+    left: 0px;
+    opacity: 60% !important;
+}
+.animet_img .cut_chili {
+    width: 140px;
+    height: 240px;
+    left: 750px;
+    top: 400px;
+}
+.animet_img .chili-hot {
+    width: 150px;
+    height: 110px;
+    top: 355px;
+}
+.animet_img .onion{
+   display: none;
+}
+.animet_img .tomito1 {
+    width: 160px;
+    height: 160px;
+    left: 610px;
+    top: 0px;;
+    opacity: 60% !important;
+}
+.animet_img .tomito3 {
+    width: 300px;
+    height: 215px;
+    left: 0px;
+    top: 75px;
+    opacity: 60% !important;
+}
+/* hero slider end */
+/* speshal menu section start  */
+.slider1 {
+    padding: 40px 0 15px;
+}
+    .price_stiker{
+        top: 115px;
+   }
+   .price_stiker h2 {
+    font-size: 22px;
+    padding: 10px 20px;
+}
+.slider_text_img .menu_info h2 {
+    font-size: 22px;
+    padding: 50px 0 0;
+}
+.slider_text_img .menu_info p {
+    padding: 15px 25px 0;
+}
+.slide_lernmor {
+    padding: 20px 0 30px 0 !important;
+}
+.slide_lernmor a {
+    padding: 5px 30px 8px;
+}
+/* speshal menu section end */
+/* offer section start  */
+.offer{
+    padding:0 !important;
+}
+.offer .bg {
+    padding: 80px;
+}
+.offer_img {
+    padding: 325px 0 0;
+}
+.offer_img .img1 {
+    width: 220px;
+    left: 315px;
+    top: 10px;
+}
+.offer_img .img2 {
+    width: 180px;
+    left: 40px;
+    top: 0px;
+}
+.offer_img .img3 { 
+    width: 210px;
+    left: 140px;
+    bottom: 20px;
+}
+.offer_img .offer_stiker {
+    left: 200px;
+}
+.offer_underline .offer_underline2{
+    margin: auto;
+}
+.offer_text {
+    padding: 0 80px;
+    text-align: center;
+}
+.offer_btn {
+    float: none;
+}
+.offer_img .img-bg {
+    display: none;
+}
+/* offer section end */
+  /* food gallary start  */
+  .hover_bg {
+    width: 100%;
+    padding: 20px 0 30px;
+    top: 355px;
+}
+.hover_bg h3 {
+    font-size: 25px;
+}
+.bar2 {
+    width: 130px;
+    bottom: 35px;
+    left: -35px;
+}
+/* food gallary ene */
+ /* book section start  */
+.bottom_padding label {
+    padding: 20px 0 15px;
+}
+.book_p {
+    padding: 25px 0 20px;
+}
+.book_label label { 
+    font-size: 18px;
+}
+.book_btn {
+    float: left;
+    padding: 30px 0 0 !important;
+}
+.opening_time h3 {
+    padding: 30px 10px 10px;
+}
+.opening_time table tr td {
+    font-size: 18px;
+    padding: 27px 15px;
+}
+.left_side {
+    padding: 30px 30px;
+}
+/* book section end */
+/* claient review start  */
+.cus_slider {
+    min-height: 590px;
+}
+.cus_slider .quotetion i {
+    font-size: 25px;
+    padding: 30px 15px 15px;
+}
+.cus_slider h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.cus_slider p {
+    padding: 15px 15px 15px;
+}
+.cus_slider span i {
+    font-size: 16px;
+    padding: 0 0 15px;
+}
+.cus_slider .cus_img {
+    width: 130px;
+}
+.cus_slider h3 {
+    padding: 15px 15px 30px;
+}
+/* claient review end */
+    /* mit our chefs start  */
+    .chefs_img {
+        width: 250px;
+        height: 250px;
+    }
+    /* chef socail icon  */
+    .chef_socail_icon .chef_socail_menu{
+        top: 100px;
+        left: 100px;
+        width: 50px;
+        height: 50px;
+    }
+    .chef_socail_icon li{
+        position: absolute;
+        top: 102px;
+        left: 10px;
+        transform-origin: 115px;
+    }
+    .chef_socail_icon li a{
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+    .chef_socail_icon li:hover a{
+       font-size: 25px;
+    }
+    /* chef socail icon */
+    .chefs_info h2 {
+        font-size: 25px;
+    }
+    .chefs_info p {
+        font-size: 18px;
+    }
+    .chefs_hover{
+        margin-bottom: 30px;
+    }
+    /* mit our chefs end */
+    /* counter me section start  */
+    .count_me1 {
+        width: 150px;
+        height: 150px;
+        padding: 40px 15px;
+    }
+    .count_me1 h2 {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .count_info p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        padding: 25px 0 0;
+    }
+    /* counter me section end */
+    /* contact section start  */
+    .info-wrap {
+        margin: 0px 0;
+        border-radius: 0px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+    }
+    /* contact section end */
+    /* footer section stert  */
+    .footer_top {
+        padding: 60px 0;
+    }
+    .ftr_col1 p {
+        font-size: 15px;
+        padding: 20px 0 15px;
+    }
+    .socail_icon li {
+        padding: 0px 7px;
+    }
+    .socail_icon li a i {
+        font-size: 20px;
+    }
+    .menu_list2 {
+        padding-left: 0px !important;
+    }
+    .menu_list ul li {
+        padding:0;
+    }
+    .menu_list ul li a {
+        font-size: 15px;
+    }
+    .contact_list p{
+        font-size: 14px;
+    }
+    .contact_p {
+        padding: 20px 0 0px;
+    }
+    .p2 {
+        margin: 0;
+        padding: 5px 0;
+    }
+    .contact_list p span {
+        padding-right: 5px;
+    }
+    .p2 span{
+        padding-right: 5px;
+    }
+    .p3 {
+        font-size: 15px;
+    }
+    .copy p {
+        font-size: 13px;
+        margin: 0;
+        padding: 15px 0;
+        color: #ffffff;
+    }  
+    .newsform {
+        margin-bottom: 15px;
+    }
+    .newsform input {
+        font-size: 15px;
+        padding: 5px 30px 5px 10px;
+    }
+    .news_control::placeholder{
+        font-size: 15px;
+    }
+    .submit_icon {
+        top: 7px;
+        left: 132px;
+    }
+    .submit_icon button i{
+        font-size: 15px;
+    }
+    .check_box {
+        margin-bottom: 0;
+    }
+    .check_box label {
+        font-size: 15px;
+    }
+    /* footer section end */
+     /* blog page start */
+       /* post left srart  */
+       .post_left .date_line {
+        padding: 30px 0px 50px 25px;
+    }
+    .post_left .post_dtls {
+        padding: 0 25px 25px 25px;
+    }
+    .post_left .post_dtls h2 {
+        font-size: 25px;
+        padding: 0 0 20px 0px; 
+    }
+    .post_left .date_line ul li {
+        padding-right: 20px;
+    }
+    .post_left .date_line ul li span {
+        padding-left: 20px;
+    }
+    /* post left end */
+    /* post right start  */
+    .side_bar_item {
+        padding: 10px 10px;
+    }
+    .category h2{
+        font-size: 20px;
+    }
+    .category_single ul li a {
+        padding: 10px 15px;
+    }
+    .category_single ul li span {
+        top: 10px;
+        left: 150px;
+    }
+    .recent_body {
+        padding: 15px 0;
+        text-align: center;
+        display: block;
+    }
+    .recent_body a {
+        text-align: center;
+    }
+    .recent_post {
+        padding: 20px 0 0;
+        display: block;
+    }
+    .recent_img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .recent_img a img {
+        width: 150px;
+    }
+    .recent_img a span {
+        left: 80px;
+    }
+    /* post right end */
+    /* blog page end */
+    /* go top start  */
+    #myTop {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    padding: 6px 10px 15px;
+}
+/* go top end */
+      .cloud img {
+        width: 150px;
+        height: 150px;
+    }
+    .fcloud01 {
+        top: 10px;
+    }
+    .fcloud02 {
+        top: 5px;
+    }
+    /* background png img end */
+     /* --------about us section start---------  */
+     .about_left .img_com {
+        width: 320px;
+    }
+    .about_left .img2{
+        width: 230px;
+        position: absolute;
+        top: 160px;
+        left: 200px;
+    }
+   /* about page about section start */
+   @keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 250px);
+      transform: rotateY(180deg); 
+     }
+     98%{
+        transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;    
+      transform: rotateY(0deg);     
+    }
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -webkit-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 250px);
+      -webkit-transform: rotateY(180deg); 
+     }
+     98%{
+        -webkit-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;
+      -webkit-transform: rotateY(0deg);
+    }
+  }
+  @-ms-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -ms-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 250px);
+      -ms-transform: rotateY(180deg); 
+     }
+     98%{
+        -ms-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;
+      -ms-transform: rotateY(0deg);
+    }
+  }
+  @-moz-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -moz-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 250px);
+      -moz-transform: rotateY(180deg); 
+     }
+     98%{
+        -moz-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;    
+      -moz-transform: rotateY(0deg);         
+    }
+  }
+  @-o-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -o-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 250px);
+      -o-transform: rotateY(180deg); 
+     }
+     98%{
+        -o-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;   
+      -o-transform: rotateY(0deg);        
+    }
+  }
+/* about page about section end */
+      .about_right p {
+        padding: 0px 0 10px;
+        margin: 0;
+        line-height: 26px;
+    }
+/* about us section end */
+ }
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* common css start  */
+    .sec_com_pd{
+        padding: 100px 0 100px;
+    }
+    /* common css end */
+    /* top header start  */
+    .top_p p{
+        font-size: 14px;
+    }
+    .top_p p span{
+        font-size: 20px;
+    }
+    /* top header end */
+    /* header start  */
+    .main_menu ul li a {
+        font-size: 18px;
+        padding: 0px 8px 30px 30px !important;
+    }
+    .c-btn a {
+        font-size: 18px;
+    }
+    /* header end */
+    /* hero slider start  */
+    .text_item {
+        padding: 100px 0px;
+    }
+    .text_item h2 {
+        font-size: 80px;
+        line-height: 110px;  
+    }
+    /* animetion img and text start  */
+    .img_item{
+        padding: 100px 0px;
+    }
+    .animet_img .spicy {    
+        left: 370px;
+        bottom: 70px;
+    }
+    .animet_img .cut_chili {
+        width: 140px;
+        height: 240px;
+        left: 750px;
+        top: 400px;
+    }
+    .animet_img .onion{
+       display: none;
+    }
+    .animet_img .chili-hot {
+        width: 200px;
+        height: 180px;
+        top: 430px;
+    }
+    /* hero slider end */
+    /* speshal menu section start  */
+    .slick_slider{
+        padding-bottom: 0 !important;
+    }
+   .price_stiker{
+        top: 165px;   
+   }
+   .slider1{
+    padding: 50px 0 90px;
+   }
+    /* speshal menu section end */
+    /* offer section start  */
+    .offer{
+        padding:0 !important;
+    }
+    .offer_img .img1 {
+        left: 130px;
+        top: 110px;
+    }
+    .offer_img .img2 {
+        left: -70px;
+        top: 40px;
+    }    
+    .offer_img .img3 {  
+        left: -65px;
+        bottom: -215px;
+    }
+    .offer_img .offer_stiker {     
+        left: 104px;
+        top: 113px;
+    }
+    .offer_img .img-bg {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: -123px;
+        bottom: -33px;
+        opacity: 50%;
+    }
+    /* offer section end */
+    /* food gallary start  */
+    .hover_bg {
+        padding: 34px 0 30px;
+        top: 305px;
+    }
+    .hover_bg h3 {
+        font-size: 20px;
+    }
+    .bar1 {
+        width: 300px;
+    }
+    .bar2 {
+        width: 140px;
+        bottom: 38px;
+        left: -40px;
+    }
+    /* food gallary ene */
+    /* book section start  */
+    .book {
+        padding: 100px 0 90px;
+    }
+    .book_p {
+        padding: 25px 0 20px;
+        text-align: center;
+        margin: 0;
+    }
+    .center_img {
+        top: 115px;
+        left: 305px;
+    }
+    .center_img img{
+        width: 300px;
+    }
+    .book_input input {
+        padding: 10px 20px;
+    }
+    .opening_time table tr td {
+        font-size: 18px;
+        padding: 25px 5px;
+        color: #fff;
+    }
+    /* book section end */
+    /* client review start  */
+    .cus_slider {
+        min-height: 620px;
+    }
+    .cus_slider h2 {
+        font-size: 30px;
+        padding: 0px 30px;
+    }
+    /* client review end */
+    /* mit our chef start  */
+    .chefs_img {
+        width: 250px;
+        height: 250px;
+    }
+    .chef_socail_icon .chef_socail_menu {
+        top: 95px;
+        left: 95px;
+    }
+    .chef_socail_icon li {
+        top: 100px;
+        left: 5px;
+        transform-origin: 120px;
+    }
+    /* mit our chef end */
+    /* counter me section start  */
+    .count_info p {
+        letter-spacing: 0px;
+    }
+    /* counter me section end */
+    /* footer section start  */
+    .socail_icon li {
+        padding: 0 10px;
+    }
+    .submit_icon {
+        left: 190px;
+    }
+    /* footer section end */
+     /* about page about section start */
+ @keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 350px);
+      transform: rotateY(180deg); 
+     }
+     98%{
+        transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;    
+      transform: rotateY(0deg);     
+    }
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -webkit-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 350px);
+      -webkit-transform: rotateY(180deg); 
+     }
+     98%{
+        -webkit-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;
+      -webkit-transform: rotateY(0deg);
+    }
+  }
+  @-ms-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -ms-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 350px);
+      -ms-transform: rotateY(180deg); 
+     }
+     98%{
+        -ms-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;
+      -ms-transform: rotateY(0deg);
+    }
+  }
+  @-moz-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -moz-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 350px);
+      -moz-transform: rotateY(180deg); 
+     }
+     98%{
+        -moz-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;    
+      -moz-transform: rotateY(0deg);         
+    }
+  }
+  @-o-keyframes run {
+    0% {
+      left: 0;
+    }
+    48%{
+        -o-transform: rotateY(0deg);
+    }
+    50% { 
+      left: calc(100% - 350px);
+      -o-transform: rotateY(180deg); 
+     }
+     98%{
+        -o-transform: rotateY(180deg);
+    }
+    100% {
+      left: 0;   
+      -o-transform: rotateY(0deg);        
+    }
+  }
+/* about page about section end */
+    /* blog page start */
+    /* post right start  */
+    .category_single ul li span {
+        left: 190px;
+    }
+    .recent_body a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    /* post right end */
+    /* post left srart  */
+    .post_left .date_line {
+        padding: 30px 0px 50px 40px;
+    }
+    /* post left end */
+    /* blog page end */
+    /* background png img start */
+    .cloud img {
+        width: 180px;
+        height: 180px;
+    }
+    .fcloud01 {
+        top: 20px;
+    }
+    .fcloud02 {
+        top: 5px;
+    }
+    /* background png img end */
+ }
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){}
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+    /* header area start  */
+    .nav_btn {
+        padding: 0px 13px 30px 70px !important;
+    }
+    /* header area end */
+    /* hero slider start  */
+    .animet_img .tomito1 {
+        left: 630px;
+    }
+    .animet_img .onion {
+        left: 1160px;
+    }
+    .animet_img .chili-hot {
+        top: 572px;
+    }
+    .animet_img .cut_chili {     
+        left: 1140px;
+        top: 500px;
+    }
+    /* hero slider end */
+    /* speshal menu section start  */
+   .price_stiker{
+    top: 245px;
+   }
+   .slide_lernmor {
+    padding: 40px 0 40px 0;
+}
+.slider_text_img .menu_info p {
+    padding: 40px 30px 0;
+}
+    /* speshal menu section end */
+    /* food gallary start  */
+    .hover_bg {
+        width: 100%;
+        padding: 30px 20px;
+        top: 422px;
+    }
+    .bar2 {
+        width: 163px;
+        bottom: 28px;
+    }
+    .bar1 {
+        width: 365px;
+    }
+    /* food gallary end */
+    /* book table section start  */
+    .center_img {
+        left: 460px;
+    }
+    /* book table section end */
+    /* footer section start  */
+    .submit_icon {
+        left: 275px;
+    }
+    /* footer section end */
+    /* about page about section start */
+    @keyframes run {
+        0% {
+          left: 0;
+        }
+        48%{
+            transform: rotateY(0deg);
+        }
+        50% { 
+          left: calc(100% - 550px);
+          transform: rotateY(180deg); 
+         }
+         98%{
+            transform: rotateY(180deg);
+        }
+        100% {
+          left: 0;    
+          transform: rotateY(0deg);     
+        }
+      }
+      @-webkit-keyframes run {
+        0% {
+          left: 0;
+        }
+        48%{
+            -webkit-transform: rotateY(0deg);
+        }
+        50% { 
+          left: calc(100% - 550px);
+          -webkit-transform: rotateY(180deg); 
+         }
+         98%{
+            -webkit-transform: rotateY(180deg);
+        }
+        100% {
+          left: 0;
+          -webkit-transform: rotateY(0deg);
+        }
+      }
+      @-ms-keyframes run {
+        0% {
+          left: 0;
+        }
+        48%{
+            -ms-transform: rotateY(0deg);
+        }
+        50% { 
+          left: calc(100% - 550px);
+          -ms-transform: rotateY(180deg); 
+         }
+         98%{
+            -ms-transform: rotateY(180deg);
+        }
+        100% {
+          left: 0;
+          -ms-transform: rotateY(0deg);
+        }
+      }
+      @-moz-keyframes run {
+        0% {
+          left: 0;
+        }
+        48%{
+            -moz-transform: rotateY(0deg);
+        }
+        50% { 
+          left: calc(100% - 550px);
+          -moz-transform: rotateY(180deg); 
+         }
+         98%{
+            -moz-transform: rotateY(180deg);
+        }
+        100% {
+          left: 0;    
+          -moz-transform: rotateY(0deg);         
+        }
+      }
+      @-o-keyframes run {
+        0% {
+          left: 0;
+        }
+        48%{
+            -o-transform: rotateY(0deg);
+        }
+        50% { 
+          left: calc(100% - 550px);
+          -o-transform: rotateY(180deg); 
+         }
+         98%{
+            -o-transform: rotateY(180deg);
+        }
+        100% {
+          left: 0;   
+          -o-transform: rotateY(0deg);        
+        }
+      }
+    /* about page about section end */
+}

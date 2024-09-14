@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Foodie is a busy eatery. We always try to serve good quality food to food lovers. You are always invited to eat local and foreign food at Foodie.">
+  <meta name="keywords" content="Foodie, restaurant, Rice, chiken, Biryani, food, fish, King-carb, Monir Barmon">
+  <meta name="author" content="Monir Barmon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie</title>
+  <!---------------fav icno start-------------->
+   <link rel="icon" href="images/favicon/fav_icon.png">
+  <!---------------fav icno end-------------->
+  <!---------------link start-------------->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media/media.css">
+    <link rel="stylesheet" href="bootstrap/icon/bootstrap-icons.css">
+  <!---------------font awesome link-------------->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/fontawesome.min.css">
+  <!--------------link end-------------->
+</head>
+<body>
+  <!---------------go top start-------------->
+  <div class="scroll scroll_active">
+      <button onclick="topFunction()" id="myTop" title="go top"><i class="fa-solid fa-square-caret-up"></i></button>
+  </div>
+  <!------------go top end-------------->
+  <!---------------preloder start-------------->
+  <section class="loder">
+        <div class="preloader js-preloader flex-center">
+          <div class="dots">
+            <div class="dot"><img src="images/preloder/lode1.png"></div>
+            <div class="dot"><img src="images/preloder/lode2.png"></div>
+            <div class="dot"><img src="images/preloder/lode3.png"></div>
+          </div>
+        </div>
+  </section>
+  <!---------------preloder end-------------->
+   <!-- -----------header section start----------- -->
+  <section class="top_header">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="top_p">       
+                <p><span><i class="fa-solid fa-envelope"></i></span>monirbarmon564@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="top_p">
+                <p><span><i class="fa-solid fa-location-dot"></i></span>XXXXXX, 5454 XXXX</p>
+              </div>
+            </div>
+            <div class="col-3 offset-1">
+                <div class="c_btn top_btn">
+                  <a class="" href="#">sign in</a>
+                </div>  
+            </div>
+          </div>
+        </div>
+  </section>
+  <hr>
+  <header class="header_area">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="container d-block">
+              <div class="row">
+                  <div class="col-2 col-lg-2 col-xl-2 p-0">
+                      <div class="img">
+                          <a class="navbar-brand logo" href="index.html">
+                              <img class="w-100" src="images/logo/foodie1.png" alt="logo">
+                            </a>
+                      </div>
+                  </div>
+                  <div class=" col-6 col-lg-7 col-xl-7 offset-4 offset-lg-0  p-0">      
+                      <div class="menu-list" id="mynav">
+                          <div class="collapse navbar-collapse menu_item main_menu" id="navbarSupportedContent">
+                              <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                  <a class="nav-link nav_btn menu_home" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link nav_btn" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link nav_btn" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link nav_btn" href="service.html">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link nav_btn active" href="contact.html">Contact</a>
+                                </li>
+                              </ul> 
+                            </div>      
+                      </div>
+                      <button class="navbar-toggler tog-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon nav_icon"></span>
+                      </button>                           
+                  </div>
+                  <div class="col-12 col-lg-3 col-xl-3 d-lg-block d-none p-0">
+                    <div class="c_btn">
+                      <a class="" href="index.html">BOOK TABLE</a>
+                    </div>
+                  </div>
+              </div>      
+          </div>
+        </nav>
+      </div>        
+  </header>
+  <!-- -----------header section end----------- -->
+  <!---------------contact section start-------------->
+  <section class="ftco-section sec_com_pd" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="sec_title tit_com_pd text-center text-white">
+          <h2>Contact manager</h2>
+          <div class="underline">
+            <div class="underline1 com_un"></div>
+            <div class="underline2 com_un"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-md-12">
+          <div class="main_wrap">
+            <div class="row no-gutters">
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="contact-wrap w-100 p-md-5 p-4">
+                  <h3 class="sec_sub_title text-white">Get in touch</h3>
+                  <div id="form-message-warning" class=""></div> 
+                  <form method="POST" id="contactForm" name="contactForm">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="col-md-6"> 
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="submit" value="Send Message" class="submit_btn">
+                          <div class="submitting"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+                <div class="info-wrap w-100 p-lg-4 p-4">
+                  <h3 class="sec_sub_title ">Contact us</h3>
+                  <div class="dbox w-100 d-flex align-items-center">
+                    <div class="icon info_icon d-flex align-items-center justify-content-center">
+                      <span class="fa fa-map-marker"></span>
+                    </div>
+                    <div class="text pl-3">
+                      <p><span>Address:</span> kundagram Bogura NY 10016</p>
+                    </div>
+                  </div>
+                  <div class="dbox w-100 d-flex align-items-center">
+                    <div class="icon info_icon d-flex align-items-center justify-content-center">
+                      <span class="fa fa-phone"></span>
+                    </div>
+                    <div class="text pl-3">
+                      <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                    </div>
+                  </div>
+                  <div class="dbox w-100 d-flex align-items-center">
+                    <div class="icon info_icon d-flex align-items-center justify-content-center">
+                      <span class="fa fa-paper-plane"></span>
+                    </div>
+                    <div class="text pl-3">
+                      <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                    </div>
+                  </div>
+                  <div class="dbox w-100 d-flex align-items-center">
+                    <div class="icon info_icon d-flex align-items-center justify-content-center">
+                      <span class="fa fa-globe"></span>
+                    </div>
+                    <div class="text pl-3">
+                      <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------contact section end-------------->
+  <!---------------google map start-------------->
+  <section class="google_map sec_com_pd">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28956.22245433896!2d89.15752846573295!3d24.879971969730935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc58c9aef7367b%3A0xc7afc542fdd05f!2sDupchanchia%205880!5e0!3m2!1sen!2sbd!4v1722536365156!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!---------------google map end-------------->
+  <!---------------footer section start-------------->
+  <footer>
+    <!-- footer top  -->
+      <div class="footer_top">
+        <div class="container">
+          <div class="row">
+            <div class="  col-12 col-md-3  col-lg-3  ">
+              <div class="ftr_col1">          
+                  <h3 class="footer_h3 pt-0">About us</h3>           
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo id labore dolor minima recusandae eum sed corrupti sunt qui cum.</p>
+                <div class="socail_icon">
+                  <ul>
+                    <li class="left_icon"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class=" col-12 col-md-2 col-lg-3 ">
+              <div class="menu_list menu_list2">
+                <h3 class="footer_h3">Explore</h3>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="service.html">Service</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class=" col-12 col-md-4 col-lg-3">
+              <div class=" contact_list">
+                <h3 class="footer_h3">Contact</h3>
+                <p class="contact_p"><span><i class="fa-solid fa-phone"></i></span>+880XXXXXXXXX</p>
+                <p class=" p2"><span><i class="fa-solid fa-envelope"></i></span>XXXXXXXXXXXXXXX</p>
+                <p class="p3">Our Support and Sales team is available 24 /7 to answer your queries</p>
+              </div>
+            </div>
+            <div class="  col-12 col-md-3 col-lg-3">
+              <div class="ftr_col1 newsletter">
+                <h3 class="footer_h3">Newslettr</h3>
+                <p>Our Support and Sales team is available 24 /7 to answer.</p>
+                <form class="newsletter_form">
+                  <div class="form-group newsform">
+                    <input type="email" class="form-control news_control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> 
+                    <div class="submit_icon">
+                      <button type="submit"><i class="fa-solid fa-arrow-right-long"></i></button>
+                    </div> 
+                  </div>
+                  <div class="form-group form-check check_box">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- footer bottom  -->
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="devider"></div>
+          <div class="row">
+            <div class="col-12 col-md-8">
+              <div class="copy">
+                <p>All Rights Reserved © 2024 Restaurant | Design By <a href="https://monirbarmon.fun/monir/" target="_blank">Monir Barmon.</a></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4  float-md-end ">
+              <div class="copy float-md-end ">
+                <p class="copy_p2"><a href="terms_conditions.html">Trems of Use </a>| <a href="privacy.html">Privacy Policy</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <!---------------footer section end-------------->
+  <script src="js/js_ly/jquery.min.js"></script>
+  <!---------------preloder link-------------->
+  <script src="vendor/preloder/js/jquery.preloadinator.min.js"> </script>
+  <script src="vendor/jq_ui/jquery-ui.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
